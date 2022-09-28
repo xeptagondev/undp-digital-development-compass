@@ -5,6 +5,7 @@ import { PillarRadioGroup } from "components/pillar-radio-group";
 import { db } from "database";
 import { Pillar } from "database/ancillary";
 import { AnimatePresence, motion } from "framer-motion";
+import { isMemberState } from "lib";
 import { InferGetStaticPropsType } from "next";
 import dynamic from "next/dynamic";
 import { useState } from "react";
@@ -150,7 +151,7 @@ const IndexPage = ({
 export default IndexPage;
 
 export const getStaticProps = async () => {
-  const countries = db.countries.map((country) => {
+  const countries = db.countries.filter(isMemberState).map((country) => {
     return {
       name: country["Country or Area"],
       alpha2: country["ISO-alpha2 Code"],
