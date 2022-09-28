@@ -1,11 +1,11 @@
 import numpy as np
 import pandas as pd
 
-sdgMappingdf = pd.read_csv('Input/sdg_mapping.csv', sep='|')
+sdgMappingdf =pd.DataFrame(pd.read_excel("Input/Digital Transformation SDG Mapping.xlsx", "SDG Mapping"))
 
-countriesdf = pd.read_csv('Input/Countries.csv', sep=',')
+countriesdf = pd.read_csv("../processed/Countries.csv")
 
-opRollingdf = pd.read_csv('Input/full_output_rolling.csv', sep=',')
+opRollingdf = pd.read_csv("../new_score/Processed/Full Data/full_output_rolling.csv")
 opRollingdf = opRollingdf[opRollingdf['Indicator'].isnull()]
 opRollingdf = opRollingdf[opRollingdf['Sub-Pillar'].notnull()]
 opRollingdf = opRollingdf[['Country Name', 'Pillar', 'Sub-Pillar', 'new_rank_score']]
@@ -43,21 +43,21 @@ dfFinal['SDG #'] = dfFinal['SDG #'].str.strip()
 
 ################################################################################
 
-ReferenceTestdf = pd.DataFrame(pd.read_excel("Digital Transformation SDG Mapping.xlsx", "Reference Test"))
+ReferenceTestdf = pd.DataFrame(pd.read_excel("Input/Digital Transformation SDG Mapping.xlsx", "Reference Test"))
 
-ReferenceTestdf = ReferenceTestdf[['SDG #', 'SDG_Target']]
+ReferenceTestdf = ReferenceTestdf[['SDG #', 'SDG Description', 'SDG_Target']]
 ReferenceTestdf['SDG #'] = ReferenceTestdf['SDG #'].str.strip()
-df2 = pd.DataFrame(columns=['Country_Name', 'SDG #', 'SDG_Target'])
+df2 = pd.DataFrame(columns=['Country_Name', 'SDG #', 'SDG Description', 'SDG_Target' ])
 
 for country in countriesAtCountry:
     for i in range(0, len(ReferenceTestdf)):
-        df2.loc[len(df2.index)] = [country, ReferenceTestdf.iloc[i]['SDG #'], ReferenceTestdf.iloc[i]['SDG_Target']]
+        df2.loc[len(df2.index)] = [country, ReferenceTestdf.iloc[i]['SDG #'], ReferenceTestdf.iloc[i]['SDG Description'], ReferenceTestdf.iloc[i]['SDG_Target']]
 
 mergedResult = pd.merge(df2, dfFinal, how="outer")
 
 ############################################################################
 
-SDG_Mapping_Calculationdf = mergedResult[['Country_Name', 'SDG #', 'SDG_Target', 'Value', 'Weighted_Value']]
+SDG_Mapping_Calculationdf = mergedResult[['Country_Name', 'SDG #', 'SDG Description', 'SDG_Target', 'Value', 'Weighted_Value']]
 
 ###########################################################################
 SDGs = set()
@@ -69,12 +69,12 @@ for country in countriesAtCountry:
     for SDG in SDGs:
         result2 = SDG_Mapping_Calculationdf.loc[(SDG_Mapping_Calculationdf['Country_Name'] == country) & (SDG_Mapping_Calculationdf['SDG #'] == SDG)]
         try:
-            SDG_Mapping_Calculationdf = SDG_Mapping_Calculationdf.append({'Country_Name': country, 'SDG #': SDG, 'SDG_Target': '', 'Value': result2["Value"].mean(), 'Weighted_Value': result2["Weighted_Value"].mean()}, ignore_index=True)
+            SDG_Mapping_Calculationdf = SDG_Mapping_Calculationdf.append({'Country_Name': country, 'SDG #': SDG, 'SDG Description': result2.iloc[0]["SDG Description"], 'SDG_Target': '', 'Value': result2["Value"].mean(), 'Weighted_Value': result2["Weighted_Value"].mean()}, ignore_index=True)
         except:
             pass
 
 SDG_Mapping_Calculationdf = SDG_Mapping_Calculationdf.round(decimals=2)
 
-SDG_Mapping_Calculationdf.to_csv('SDG_Mapping_Calculation.csv', header=True, index=False)
+SDG_Mapping_Calculationdf.to_csv('Output/SDG_Mapping_Calculation.csv', header=True, index=False)
 
 
