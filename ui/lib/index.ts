@@ -4,6 +4,7 @@ import ancillary from "database/processed/ancillary";
 import type { BoundingBox, Country } from "database/processed/db";
 import flattenDeep from "lodash/flattenDeep";
 
+console.log('testing....')
 interface PillarColorMap {
   [key: string]: {
     base: string;
