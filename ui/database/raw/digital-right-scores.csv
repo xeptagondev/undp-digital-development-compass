@@ -1,5 +1,5 @@
 Country Name,Pillar,Indicator,higher_is_better,data_status,data_col,Year,data_availability,new_rank_score,Source Name,Source URL,raw_data_col,rank
-Afghanistan,Cross-Cutting Indicators,,,,,,,0.99,,,,191.0
+Afghanistan,Cross-Cutting Indicators,,,,,,,1.0,,,,191.0
 Afghanistan,"Freedom of Expression, Assembly and Association ",,,,,,,3.39,,,,100.0
 Afghanistan,Right to Privacy ,,,,,,,0.0,,,,180.0
 Albania,Cross-Cutting Indicators,,,,,,,3.74,,,,40.0
@@ -30,7 +30,7 @@ Australia,Right to Privacy ,,,,,,,4.67,,,,38.0
 Austria,Cross-Cutting Indicators,,,,,,,4.23,,,,12.0
 Austria,"Freedom of Expression, Assembly and Association ",,,,,,,3.56,,,,78.0
 Austria,Right to Privacy ,,,,,,,4.73,,,,29.0
-Azerbaijan,Cross-Cutting Indicators,,,,,,,2.39,,,,130.0
+Azerbaijan,Cross-Cutting Indicators,,,,,,,2.39,,,,131.0
 Azerbaijan,"Freedom of Expression, Assembly and Association ",,,,,,,2.99,,,,131.0
 Azerbaijan,Right to Privacy ,,,,,,,4.13,,,,95.0
 Bahamas (the),Cross-Cutting Indicators,,,,,,,3.31,,,,62.0
@@ -60,7 +60,7 @@ Benin,Right to Privacy ,,,,,,,4.76,,,,24.0
 Bhutan,Cross-Cutting Indicators,,,,,,,2.77,,,,101.0
 Bhutan,"Freedom of Expression, Assembly and Association ",,,,,,,2.99,,,,130.0
 Bhutan,Right to Privacy ,,,,,,,3.46,,,,119.0
-Bolivia (Plurinational State of),Cross-Cutting Indicators,,,,,,,2.34,,,,138.0
+Bolivia (Plurinational State of),Cross-Cutting Indicators,,,,,,,2.34,,,,137.0
 Bolivia (Plurinational State of),"Freedom of Expression, Assembly and Association ",,,,,,,3.51,,,,85.0
 Bolivia (Plurinational State of),Right to Privacy ,,,,,,,1.95,,,,147.0
 Bosnia and Herzegovina,Cross-Cutting Indicators,,,,,,,2.62,,,,116.0
@@ -75,7 +75,7 @@ Brazil,Right to Privacy ,,,,,,,4.57,,,,47.0
 Brunei Darussalam,Cross-Cutting Indicators,,,,,,,2.93,,,,88.0
 Brunei Darussalam,"Freedom of Expression, Assembly and Association ",,,,,,,2.99,,,,129.0
 Brunei Darussalam,Right to Privacy ,,,,,,,1.25,,,,163.0
-Bulgaria,Cross-Cutting Indicators,,,,,,,3.16,,,,74.0
+Bulgaria,Cross-Cutting Indicators,,,,,,,3.15,,,,74.0
 Bulgaria,"Freedom of Expression, Assembly and Association ",,,,,,,3.71,,,,60.0
 Bulgaria,Right to Privacy ,,,,,,,4.7,,,,34.0
 Burkina Faso,Cross-Cutting Indicators,,,,,,,1.7,,,,174.0
@@ -90,7 +90,7 @@ Cabo Verde,Right to Privacy ,,,,,,,4.55,,,,48.0
 Cambodia,Cross-Cutting Indicators,,,,,,,1.63,,,,178.0
 Cambodia,"Freedom of Expression, Assembly and Association ",,,,,,,2.72,,,,148.0
 Cambodia,Right to Privacy ,,,,,,,2.09,,,,144.0
-Cameroon,Cross-Cutting Indicators,,,,,,,1.69,,,,175.0
+Cameroon,Cross-Cutting Indicators,,,,,,,1.69,,,,176.0
 Cameroon,"Freedom of Expression, Assembly and Association ",,,,,,,3.0,,,,127.0
 Cameroon,Right to Privacy ,,,,,,,1.58,,,,156.0
 Canada,Cross-Cutting Indicators,,,,,,,4.29,,,,11.0
@@ -148,7 +148,7 @@ Denmark,Right to Privacy ,,,,,,,4.62,,,,43.0
 Djibouti,Cross-Cutting Indicators,,,,,,,1.74,,,,172.0
 Djibouti,"Freedom of Expression, Assembly and Association ",,,,,,,2.44,,,,167.0
 Djibouti,Right to Privacy ,,,,,,,1.89,,,,148.0
-Dominica,Cross-Cutting Indicators,,,,,,,2.95,,,,86.0
+Dominica,Cross-Cutting Indicators,,,,,,,2.95,,,,87.0
 Dominica,"Freedom of Expression, Assembly and Association ",,,,,,,5.0,,,,1.0
 Dominica,Right to Privacy ,,,,,,,1.25,,,,163.0
 Dominican Republic (the),Cross-Cutting Indicators,,,,,,,2.95,,,,86.0
@@ -196,7 +196,7 @@ Gambia (the),Right to Privacy ,,,,,,,3.11,,,,128.0
 Georgia,Cross-Cutting Indicators,,,,,,,3.18,,,,71.0
 Georgia,"Freedom of Expression, Assembly and Association ",,,,,,,3.95,,,,46.0
 Georgia,Right to Privacy ,,,,,,,4.39,,,,67.0
-Germany,Cross-Cutting Indicators,,,,,,,4.43,,,,7.0
+Germany,Cross-Cutting Indicators,,,,,,,4.42,,,,7.0
 Germany,"Freedom of Expression, Assembly and Association ",,,,,,,3.45,,,,92.0
 Germany,Right to Privacy ,,,,,,,4.72,,,,31.0
 Ghana,Cross-Cutting Indicators,,,,,,,2.65,,,,115.0
@@ -256,7 +256,7 @@ Italy,Right to Privacy ,,,,,,,4.52,,,,55.0
 Jamaica,Cross-Cutting Indicators,,,,,,,2.96,,,,85.0
 Jamaica,"Freedom of Expression, Assembly and Association ",,,,,,,4.11,,,,34.0
 Jamaica,Right to Privacy ,,,,,,,4.88,,,,13.0
-Japan,Cross-Cutting Indicators,,,,,,,4.07,,,,20.0
+Japan,Cross-Cutting Indicators,,,,,,,4.06,,,,21.0
 Japan,"Freedom of Expression, Assembly and Association ",,,,,,,4.05,,,,38.0
 Japan,Right to Privacy ,,,,,,,4.78,,,,22.0
 Jordan,Cross-Cutting Indicators,,,,,,,2.52,,,,122.0
@@ -271,13 +271,13 @@ Kenya,Right to Privacy ,,,,,,,4.37,,,,72.0
 Kiribati,Cross-Cutting Indicators,,,,,,,2.93,,,,89.0
 Kiribati,"Freedom of Expression, Assembly and Association ",,,,,,,5.0,,,,1.0
 Kiribati,Right to Privacy ,,,,,,,0.0,,,,180.0
-Kosovo (UNSCR 1244),Cross-Cutting Indicators,,,,,,,2.89,,,,91.0
+Kosovo (UNSCR 1244),Cross-Cutting Indicators,,,,,,,2.88,,,,94.0
 Kosovo (UNSCR 1244),"Freedom of Expression, Assembly and Association ",,,,,,,3.62,,,,71.0
 Kosovo (UNSCR 1244),Right to Privacy ,,,,,,,4.93,,,,10.0
-Kuwait,Cross-Cutting Indicators,,,,,,,3.25,,,,68.0
+Kuwait,Cross-Cutting Indicators,,,,,,,3.24,,,,68.0
 Kuwait,"Freedom of Expression, Assembly and Association ",,,,,,,2.41,,,,170.0
 Kuwait,Right to Privacy ,,,,,,,4.14,,,,94.0
-Kyrgyzstan,Cross-Cutting Indicators,,,,,,,2.39,,,,129.0
+Kyrgyzstan,Cross-Cutting Indicators,,,,,,,2.39,,,,130.0
 Kyrgyzstan,"Freedom of Expression, Assembly and Association ",,,,,,,3.6,,,,72.0
 Kyrgyzstan,Right to Privacy ,,,,,,,2.44,,,,142.0
 Lao People's Democratic Republic (the),Cross-Cutting Indicators,,,,,,,1.9,,,,161.0
@@ -296,16 +296,16 @@ Lesotho,Right to Privacy ,,,,,,,3.69,,,,113.0
 Liberia,Cross-Cutting Indicators,,,,,,,1.84,,,,164.0
 Liberia,"Freedom of Expression, Assembly and Association ",,,,,,,3.25,,,,111.0
 Liberia,Right to Privacy ,,,,,,,1.37,,,,159.0
-Libya,Cross-Cutting Indicators,,,,,,,2.07,,,,151.0
+Libya,Cross-Cutting Indicators,,,,,,,2.06,,,,151.0
 Libya,"Freedom of Expression, Assembly and Association ",,,,,,,3.36,,,,103.0
 Libya,Right to Privacy ,,,,,,,0.41,,,,178.0
-Liechtenstein,Cross-Cutting Indicators,,,,,,,3.94,,,,26.0
+Liechtenstein,Cross-Cutting Indicators,,,,,,,3.93,,,,27.0
 Liechtenstein,"Freedom of Expression, Assembly and Association ",,,,,,,2.78,,,,144.0
 Liechtenstein,Right to Privacy ,,,,,,,5.0,,,,1.0
 Lithuania,Cross-Cutting Indicators,,,,,,,3.99,,,,23.0
 Lithuania,"Freedom of Expression, Assembly and Association ",,,,,,,3.67,,,,65.0
 Lithuania,Right to Privacy ,,,,,,,4.82,,,,18.0
-Luxembourg,Cross-Cutting Indicators,,,,,,,4.2,,,,13.0
+Luxembourg,Cross-Cutting Indicators,,,,,,,4.2,,,,14.0
 Luxembourg,"Freedom of Expression, Assembly and Association ",,,,,,,3.55,,,,80.0
 Luxembourg,Right to Privacy ,,,,,,,4.9,,,,12.0
 Madagascar,Cross-Cutting Indicators,,,,,,,1.98,,,,154.0
@@ -314,7 +314,7 @@ Madagascar,Right to Privacy ,,,,,,,3.76,,,,109.0
 Malawi,Cross-Cutting Indicators,,,,,,,2.15,,,,144.0
 Malawi,"Freedom of Expression, Assembly and Association ",,,,,,,3.28,,,,108.0
 Malawi,Right to Privacy ,,,,,,,1.86,,,,149.0
-Malaysia,Cross-Cutting Indicators,,,,,,,2.99,,,,83.0
+Malaysia,Cross-Cutting Indicators,,,,,,,2.98,,,,84.0
 Malaysia,"Freedom of Expression, Assembly and Association ",,,,,,,3.17,,,,117.0
 Malaysia,Right to Privacy ,,,,,,,4.06,,,,99.0
 Maldives,Cross-Cutting Indicators,,,,,,,2.79,,,,99.0
@@ -351,17 +351,17 @@ Mongolia,Right to Privacy ,,,,,,,4.32,,,,77.0
 Montenegro,Cross-Cutting Indicators,,,,,,,3.32,,,,60.0
 Montenegro,"Freedom of Expression, Assembly and Association ",,,,,,,4.14,,,,32.0
 Montenegro,Right to Privacy ,,,,,,,4.49,,,,58.0
-Morocco,Cross-Cutting Indicators,,,,,,,2.45,,,,125.0
+Morocco,Cross-Cutting Indicators,,,,,,,2.44,,,,125.0
 Morocco,"Freedom of Expression, Assembly and Association ",,,,,,,2.55,,,,159.0
 Morocco,Right to Privacy ,,,,,,,4.55,,,,49.0
-Mozambique,Cross-Cutting Indicators,,,,,,,2.34,,,,137.0
+Mozambique,Cross-Cutting Indicators,,,,,,,2.34,,,,138.0
 Mozambique,"Freedom of Expression, Assembly and Association ",,,,,,,3.25,,,,113.0
 Mozambique,Right to Equality and Non-Discrimination,,,,,,,3.75,,,,4.0
 Mozambique,Right to Privacy ,,,,,,,2.74,,,,133.0
 Myanmar,Cross-Cutting Indicators,,,,,,,1.68,,,,177.0
 Myanmar,"Freedom of Expression, Assembly and Association ",,,,,,,0.16,,,,194.0
 Myanmar,Right to Privacy ,,,,,,,0.0,,,,180.0
-Namibia,Cross-Cutting Indicators,,,,,,,2.72,,,,107.0
+Namibia,Cross-Cutting Indicators,,,,,,,2.72,,,,108.0
 Namibia,"Freedom of Expression, Assembly and Association ",,,,,,,4.15,,,,31.0
 Namibia,Right to Privacy ,,,,,,,1.61,,,,154.0
 Nauru,Cross-Cutting Indicators,,,,,,,3.11,,,,78.0
@@ -382,7 +382,7 @@ Nicaragua,Right to Privacy ,,,,,,,2.87,,,,130.0
 Niger (the),Cross-Cutting Indicators,,,,,,,1.56,,,,180.0
 Niger (the),"Freedom of Expression, Assembly and Association ",,,,,,,3.7,,,,64.0
 Niger (the),Right to Privacy ,,,,,,,4.2,,,,88.0
-Nigeria,Cross-Cutting Indicators,,,,,,,1.9,,,,163.0
+Nigeria,Cross-Cutting Indicators,,,,,,,1.89,,,,163.0
 Nigeria,"Freedom of Expression, Assembly and Association ",,,,,,,3.06,,,,122.0
 Nigeria,Right to Privacy ,,,,,,,4.21,,,,84.0
 North Macedonia,Cross-Cutting Indicators,,,,,,,3.82,,,,34.0
@@ -413,25 +413,25 @@ Paraguay,Right to Privacy ,,,,,,,4.64,,,,42.0
 Peru,Cross-Cutting Indicators,,,,,,,2.84,,,,96.0
 Peru,"Freedom of Expression, Assembly and Association ",,,,,,,3.91,,,,51.0
 Peru,Right to Privacy ,,,,,,,4.16,,,,92.0
-Philippines (the),Cross-Cutting Indicators,,,,,,,2.69,,,,110.0
+Philippines (the),Cross-Cutting Indicators,,,,,,,2.68,,,,110.0
 Philippines (the),"Freedom of Expression, Assembly and Association ",,,,,,,3.54,,,,81.0
 Philippines (the),Right to Privacy ,,,,,,,4.37,,,,71.0
 Poland,Cross-Cutting Indicators,,,,,,,3.67,,,,43.0
 Poland,"Freedom of Expression, Assembly and Association ",,,,,,,3.96,,,,43.0
 Poland,Right to Privacy ,,,,,,,4.38,,,,69.0
-Portugal,Cross-Cutting Indicators,,,,,,,3.94,,,,27.0
+Portugal,Cross-Cutting Indicators,,,,,,,3.94,,,,26.0
 Portugal,"Freedom of Expression, Assembly and Association ",,,,,,,4.29,,,,19.0
 Portugal,Right to Privacy ,,,,,,,5.0,,,,1.0
 Qatar,Cross-Cutting Indicators,,,,,,,3.14,,,,77.0
 Qatar,"Freedom of Expression, Assembly and Association ",,,,,,,2.62,,,,154.0
 Qatar,Right to Privacy ,,,,,,,4.24,,,,83.0
-Republic of Korea (the),Cross-Cutting Indicators,,,,,,,4.06,,,,21.0
+Republic of Korea (the),Cross-Cutting Indicators,,,,,,,4.07,,,,20.0
 Republic of Korea (the),"Freedom of Expression, Assembly and Association ",,,,,,,3.78,,,,58.0
 Republic of Korea (the),Right to Privacy ,,,,,,,4.53,,,,53.0
 Republic of Moldova (the),Cross-Cutting Indicators,,,,,,,3.02,,,,81.0
 Republic of Moldova (the),"Freedom of Expression, Assembly and Association ",,,,,,,2.91,,,,137.0
 Republic of Moldova (the),Right to Privacy ,,,,,,,4.09,,,,98.0
-Romania,Cross-Cutting Indicators,,,,,,,3.45,,,,51.0
+Romania,Cross-Cutting Indicators,,,,,,,3.45,,,,52.0
 Romania,"Freedom of Expression, Assembly and Association ",,,,,,,4.1,,,,35.0
 Romania,Right to Privacy ,,,,,,,4.45,,,,61.0
 Russian Federation (the),Cross-Cutting Indicators,,,,,,,2.59,,,,118.0
@@ -446,7 +446,7 @@ Saint Kitts and Nevis,Right to Privacy ,,,,,,,2.5,,,,138.0
 Saint Lucia,Cross-Cutting Indicators,,,,,,,3.24,,,,69.0
 Saint Lucia,"Freedom of Expression, Assembly and Association ",,,,,,,5.0,,,,1.0
 Saint Lucia,Right to Privacy ,,,,,,,2.5,,,,138.0
-Saint Vincent and the Grenadines,Cross-Cutting Indicators,,,,,,,3.27,,,,64.0
+Saint Vincent and the Grenadines,Cross-Cutting Indicators,,,,,,,3.27,,,,65.0
 Saint Vincent and the Grenadines,"Freedom of Expression, Assembly and Association ",,,,,,,5.0,,,,1.0
 Saint Vincent and the Grenadines,Right to Privacy ,,,,,,,2.5,,,,138.0
 Samoa,Cross-Cutting Indicators,,,,,,,3.39,,,,56.0
@@ -459,7 +459,7 @@ San Marino,Right to Privacy ,,,,,,,5.0,,,,1.0
 Sao Tome and Principe,Cross-Cutting Indicators,,,,,,,2.55,,,,119.0
 Sao Tome and Principe,"Freedom of Expression, Assembly and Association ",,,,,,,4.52,,,,16.0
 Sao Tome and Principe,Right to Privacy ,,,,,,,4.74,,,,28.0
-Saudi Arabia,Cross-Cutting Indicators,,,,,,,2.89,,,,93.0
+Saudi Arabia,Cross-Cutting Indicators,,,,,,,2.88,,,,93.0
 Saudi Arabia,"Freedom of Expression, Assembly and Association ",,,,,,,2.01,,,,184.0
 Saudi Arabia,Right to Privacy ,,,,,,,5.0,,,,1.0
 Senegal,Cross-Cutting Indicators,,,,,,,2.41,,,,126.0
@@ -477,7 +477,7 @@ Sierra Leone,Right to Privacy ,,,,,,,2.42,,,,143.0
 Singapore,Cross-Cutting Indicators,,,,,,,3.89,,,,30.0
 Singapore,"Freedom of Expression, Assembly and Association ",,,,,,,2.63,,,,153.0
 Singapore,Right to Privacy ,,,,,,,4.2,,,,86.0
-Slovakia,Cross-Cutting Indicators,,,,,,,3.6,,,,45.0
+Slovakia,Cross-Cutting Indicators,,,,,,,3.59,,,,45.0
 Slovakia,"Freedom of Expression, Assembly and Association ",,,,,,,4.23,,,,23.0
 Slovakia,Right to Privacy ,,,,,,,4.71,,,,32.0
 Slovenia,Cross-Cutting Indicators,,,,,,,3.88,,,,31.0
@@ -486,7 +486,7 @@ Slovenia,Right to Privacy ,,,,,,,4.72,,,,30.0
 Solomon Islands,Cross-Cutting Indicators,,,,,,,2.35,,,,136.0
 Solomon Islands,"Freedom of Expression, Assembly and Association ",,,,,,,4.22,,,,25.0
 Solomon Islands,Right to Privacy ,,,,,,,0.0,,,,180.0
-Somalia,Cross-Cutting Indicators,,,,,,,0.93,,,,192.0
+Somalia,Cross-Cutting Indicators,,,,,,,0.92,,,,192.0
 Somalia,"Freedom of Expression, Assembly and Association ",,,,,,,3.39,,,,99.0
 Somalia,Right to Privacy ,,,,,,,0.0,,,,180.0
 South Africa,Cross-Cutting Indicators,,,,,,,3.26,,,,67.0
@@ -510,10 +510,10 @@ Suriname,Right to Privacy ,,,,,,,2.01,,,,146.0
 Sweden,Cross-Cutting Indicators,,,,,,,4.51,,,,5.0
 Sweden,"Freedom of Expression, Assembly and Association ",,,,,,,4.32,,,,18.0
 Sweden,Right to Privacy ,,,,,,,4.85,,,,16.0
-Switzerland,Cross-Cutting Indicators,,,,,,,4.56,,,,3.0
+Switzerland,Cross-Cutting Indicators,,,,,,,4.55,,,,3.0
 Switzerland,"Freedom of Expression, Assembly and Association ",,,,,,,3.89,,,,53.0
 Switzerland,Right to Privacy ,,,,,,,4.9,,,,11.0
-Syrian Arab Republic (the),Cross-Cutting Indicators,,,,,,,1.45,,,,184.0
+Syrian Arab Republic (the),Cross-Cutting Indicators,,,,,,,1.47,,,,184.0
 Syrian Arab Republic (the),"Freedom of Expression, Assembly and Association ",,,,,,,2.3,,,,173.0
 Syrian Arab Republic (the),Right to Privacy ,,,,,,,1.36,,,,160.0
 Tajikistan,Cross-Cutting Indicators,,,,,,,1.78,,,,169.0
@@ -522,13 +522,13 @@ Tajikistan,Right to Privacy ,,,,,,,3.74,,,,111.0
 Thailand,Cross-Cutting Indicators,,,,,,,2.72,,,,107.0
 Thailand,"Freedom of Expression, Assembly and Association ",,,,,,,3.45,,,,93.0
 Thailand,Right to Privacy ,,,,,,,3.53,,,,118.0
-Timor-Leste,Cross-Cutting Indicators,,,,,,,2.89,,,,92.0
+Timor-Leste,Cross-Cutting Indicators,,,,,,,2.89,,,,91.0
 Timor-Leste,"Freedom of Expression, Assembly and Association ",,,,,,,2.71,,,,149.0
 Timor-Leste,Right to Privacy ,,,,,,,1.72,,,,151.0
 Togo,Cross-Cutting Indicators,,,,,,,1.91,,,,159.0
 Togo,"Freedom of Expression, Assembly and Association ",,,,,,,2.87,,,,139.0
 Togo,Right to Privacy ,,,,,,,4.59,,,,45.0
-Tonga,Cross-Cutting Indicators,,,,,,,3.45,,,,52.0
+Tonga,Cross-Cutting Indicators,,,,,,,3.45,,,,51.0
 Tonga,"Freedom of Expression, Assembly and Association ",,,,,,,3.92,,,,48.0
 Tonga,Right to Privacy ,,,,,,,0.0,,,,180.0
 Trinidad and Tobago,Cross-Cutting Indicators,,,,,,,3.14,,,,76.0
@@ -549,13 +549,13 @@ Tuvalu,Right to Privacy ,,,,,,,0.0,,,,180.0
 Uganda,Cross-Cutting Indicators,,,,,,,1.9,,,,160.0
 Uganda,"Freedom of Expression, Assembly and Association ",,,,,,,2.07,,,,181.0
 Uganda,Right to Privacy ,,,,,,,4.2,,,,86.0
-Ukraine,Cross-Cutting Indicators,,,,,,,2.88,,,,94.0
+Ukraine,Cross-Cutting Indicators,,,,,,,2.88,,,,92.0
 Ukraine,"Freedom of Expression, Assembly and Association ",,,,,,,3.7,,,,63.0
 Ukraine,Right to Privacy ,,,,,,,4.31,,,,78.0
 United Arab Emirates (the),Cross-Cutting Indicators,,,,,,,3.27,,,,66.0
 United Arab Emirates (the),"Freedom of Expression, Assembly and Association ",,,,,,,2.16,,,,178.0
 United Arab Emirates (the),Right to Privacy ,,,,,,,2.73,,,,134.0
-United Kingdom of Great Britain and Northern Ireland (the),Cross-Cutting Indicators,,,,,,,4.2,,,,14.0
+United Kingdom of Great Britain and Northern Ireland (the),Cross-Cutting Indicators,,,,,,,4.2,,,,13.0
 United Kingdom of Great Britain and Northern Ireland (the),"Freedom of Expression, Assembly and Association ",,,,,,,3.38,,,,101.0
 United Kingdom of Great Britain and Northern Ireland (the),Right to Privacy ,,,,,,,4.26,,,,79.0
 United Republic of Tanzania (the),Cross-Cutting Indicators,,,,,,,2.02,,,,152.0
@@ -577,7 +577,7 @@ Vanuatu,Right to Privacy ,,,,,,,3.24,,,,125.0
 Venezuela (Bolivarian Republic of),Cross-Cutting Indicators,,,,,,,1.81,,,,166.0
 Venezuela (Bolivarian Republic of),"Freedom of Expression, Assembly and Association ",,,,,,,2.54,,,,160.0
 Venezuela (Bolivarian Republic of),Right to Privacy ,,,,,,,1.54,,,,157.0
-Viet Nam,Cross-Cutting Indicators,,,,,,,2.38,,,,131.0
+Viet Nam,Cross-Cutting Indicators,,,,,,,2.39,,,,129.0
 Viet Nam,"Freedom of Expression, Assembly and Association ",,,,,,,2.12,,,,179.0
 Viet Nam,Right to Privacy ,,,,,,,3.79,,,,106.0
 Yemen,Cross-Cutting Indicators,,,,,,,1.39,,,,187.0
@@ -589,41 +589,41 @@ Zambia,Right to Privacy ,,,,,,,3.66,,,,114.0
 Zimbabwe,Cross-Cutting Indicators,,,,,,,1.92,,,,158.0
 Zimbabwe,"Freedom of Expression, Assembly and Association ",,,,,,,3.26,,,,110.0
 Zimbabwe,Right to Privacy ,,,,,,,4.0,,,,101.0
-Afghanistan,Cross-Cutting Indicators,Connectivity,,1,1.32,,,1.32,,,,
+Afghanistan,Cross-Cutting Indicators,Connectivity,,1,1.33,,,1.33,,,,
 Albania,Cross-Cutting Indicators,Connectivity,,1,2.86,,,2.86,,,,
 Algeria,Cross-Cutting Indicators,Connectivity,,1,3.35,,,3.35,,,,
-Andorra,Cross-Cutting Indicators,Connectivity,,1,3.35,,,3.35,,,,
-Angola,Cross-Cutting Indicators,Connectivity,,1,2.01,,,2.01,,,,
-Antigua and Barbuda,Cross-Cutting Indicators,Connectivity,,1,1.82,,,1.82,,,,
+Andorra,Cross-Cutting Indicators,Connectivity,,1,3.34,,,3.34,,,,
+Angola,Cross-Cutting Indicators,Connectivity,,1,2.0,,,2.0,,,,
+Antigua and Barbuda,Cross-Cutting Indicators,Connectivity,,1,1.81,,,1.81,,,,
 Argentina,Cross-Cutting Indicators,Connectivity,,1,3.83,,,3.83,,,,
 Armenia,Cross-Cutting Indicators,Connectivity,,1,3.54,,,3.54,,,,
 Australia,Cross-Cutting Indicators,Connectivity,,1,3.78,,,3.78,,,,
 Austria,Cross-Cutting Indicators,Connectivity,,1,3.74,,,3.74,,,,
-Azerbaijan,Cross-Cutting Indicators,Connectivity,,1,2.88,,,2.88,,,,
-Bahamas (the),Cross-Cutting Indicators,Connectivity,,1,3.37,,,3.37,,,,
+Azerbaijan,Cross-Cutting Indicators,Connectivity,,1,2.89,,,2.89,,,,
+Bahamas (the),Cross-Cutting Indicators,Connectivity,,1,3.36,,,3.36,,,,
 Bahrain,Cross-Cutting Indicators,Connectivity,,1,3.45,,,3.45,,,,
 Bangladesh,Cross-Cutting Indicators,Connectivity,,1,2.56,,,2.56,,,,
 Barbados,Cross-Cutting Indicators,Connectivity,,1,3.05,,,3.05,,,,
 Belarus,Cross-Cutting Indicators,Connectivity,,1,3.35,,,3.35,,,,
-Belgium,Cross-Cutting Indicators,Connectivity,,1,3.87,,,3.87,,,,
+Belgium,Cross-Cutting Indicators,Connectivity,,1,3.86,,,3.86,,,,
 Belize,Cross-Cutting Indicators,Connectivity,,1,2.67,,,2.67,,,,
 Benin,Cross-Cutting Indicators,Connectivity,,1,2.19,,,2.19,,,,
 Bhutan,Cross-Cutting Indicators,Connectivity,,1,2.65,,,2.65,,,,
 Bolivia (Plurinational State of),Cross-Cutting Indicators,Connectivity,,1,2.71,,,2.71,,,,
-Bosnia and Herzegovina,Cross-Cutting Indicators,Connectivity,,1,2.84,,,2.84,,,,
+Bosnia and Herzegovina,Cross-Cutting Indicators,Connectivity,,1,2.83,,,2.83,,,,
 Botswana,Cross-Cutting Indicators,Connectivity,,1,2.57,,,2.57,,,,
-Brazil,Cross-Cutting Indicators,Connectivity,,1,3.71,,,3.71,,,,
+Brazil,Cross-Cutting Indicators,Connectivity,,1,3.7,,,3.7,,,,
 Brunei Darussalam,Cross-Cutting Indicators,Connectivity,,1,3.51,,,3.51,,,,
-Bulgaria,Cross-Cutting Indicators,Connectivity,,1,3.56,,,3.56,,,,
+Bulgaria,Cross-Cutting Indicators,Connectivity,,1,3.55,,,3.55,,,,
 Burkina Faso,Cross-Cutting Indicators,Connectivity,,1,1.56,,,1.56,,,,
 Burundi,Cross-Cutting Indicators,Connectivity,,1,1.29,,,1.29,,,,
 Cabo Verde,Cross-Cutting Indicators,Connectivity,,1,2.84,,,2.84,,,,
 Cambodia,Cross-Cutting Indicators,Connectivity,,1,2.47,,,2.48,,,,
-Cameroon,Cross-Cutting Indicators,Connectivity,,1,2.16,,,2.16,,,,
-Canada,Cross-Cutting Indicators,Connectivity,,1,3.94,,,3.94,,,,
+Cameroon,Cross-Cutting Indicators,Connectivity,,1,2.15,,,2.15,,,,
+Canada,Cross-Cutting Indicators,Connectivity,,1,3.95,,,3.95,,,,
 Central African Republic (the),Cross-Cutting Indicators,Connectivity,,1,1.02,,,1.02,,,,
 Chad,Cross-Cutting Indicators,Connectivity,,1,0.88,,,0.88,,,,
-Chile,Cross-Cutting Indicators,Connectivity,,1,3.87,,,3.87,,,,
+Chile,Cross-Cutting Indicators,Connectivity,,1,3.86,,,3.86,,,,
 China,Cross-Cutting Indicators,Connectivity,,1,3.53,,,3.53,,,,
 Colombia,Cross-Cutting Indicators,Connectivity,,1,3.23,,,3.23,,,,
 Comoros (the),Cross-Cutting Indicators,Connectivity,,1,1.78,,,1.78,,,,
@@ -632,32 +632,32 @@ Costa Rica,Cross-Cutting Indicators,Connectivity,,1,3.81,,,3.81,,,,
 Croatia,Cross-Cutting Indicators,Connectivity,,1,3.66,,,3.66,,,,
 Cuba,Cross-Cutting Indicators,Connectivity,,1,1.82,,,1.82,,,,
 Cyprus,Cross-Cutting Indicators,Connectivity,,1,4.05,,,4.05,,,,
-Czechia,Cross-Cutting Indicators,Connectivity,,1,3.79,,,3.79,,,,
+Czechia,Cross-Cutting Indicators,Connectivity,,1,3.78,,,3.78,,,,
 Côte d'Ivoire,Cross-Cutting Indicators,Connectivity,,1,2.45,,,2.46,,,,
 Democratic People's Republic of Korea (the),Cross-Cutting Indicators,Connectivity,,1,2.63,,,2.63,,,,
 Democratic Republic of the Congo (the),Cross-Cutting Indicators,Connectivity,,1,1.7,,,1.7,,,,
 Denmark,Cross-Cutting Indicators,Connectivity,,1,4.18,,,4.18,,,,
 Djibouti,Cross-Cutting Indicators,Connectivity,,1,2.04,,,2.04,,,,
-Dominica,Cross-Cutting Indicators,Connectivity,,1,2.51,,,2.51,,,,
+Dominica,Cross-Cutting Indicators,Connectivity,,1,2.5,,,2.5,,,,
 Dominican Republic (the),Cross-Cutting Indicators,Connectivity,,1,3.63,,,3.63,,,,
 Ecuador,Cross-Cutting Indicators,Connectivity,,1,3.04,,,3.04,,,,
 Egypt,Cross-Cutting Indicators,Connectivity,,1,3.21,,,3.21,,,,
 El Salvador,Cross-Cutting Indicators,Connectivity,,1,3.28,,,3.28,,,,
 Equatorial Guinea,Cross-Cutting Indicators,Connectivity,,1,1.28,,,1.28,,,,
 Eritrea,Cross-Cutting Indicators,Connectivity,,1,1.46,,,1.46,,,,
-Estonia,Cross-Cutting Indicators,Connectivity,,1,3.69,,,3.69,,,,
+Estonia,Cross-Cutting Indicators,Connectivity,,1,3.68,,,3.68,,,,
 Eswatini,Cross-Cutting Indicators,Connectivity,,1,2.54,,,2.54,,,,
 Ethiopia,Cross-Cutting Indicators,Connectivity,,1,2.18,,,2.19,,,,
 Fiji,Cross-Cutting Indicators,Connectivity,,1,2.74,,,2.74,,,,
 Finland,Cross-Cutting Indicators,Connectivity,,1,4.2,,,4.2,,,,
 France,Cross-Cutting Indicators,Connectivity,,1,4.21,,,4.21,,,,
-Gabon,Cross-Cutting Indicators,Connectivity,,1,2.57,,,2.57,,,,
+Gabon,Cross-Cutting Indicators,Connectivity,,1,2.56,,,2.56,,,,
 Gambia (the),Cross-Cutting Indicators,Connectivity,,1,2.03,,,2.03,,,,
 Georgia,Cross-Cutting Indicators,Connectivity,,1,3.54,,,3.54,,,,
-Germany,Cross-Cutting Indicators,Connectivity,,1,4.21,,,4.21,,,,
+Germany,Cross-Cutting Indicators,Connectivity,,1,4.2,,,4.2,,,,
 Ghana,Cross-Cutting Indicators,Connectivity,,1,2.48,,,2.48,,,,
 Greece,Cross-Cutting Indicators,Connectivity,,1,3.79,,,3.79,,,,
-Grenada,Cross-Cutting Indicators,Connectivity,,1,4.11,,,4.12,,,,
+Grenada,Cross-Cutting Indicators,Connectivity,,1,4.1,,,4.1,,,,
 Guatemala,Cross-Cutting Indicators,Connectivity,,1,2.98,,,2.98,,,,
 Guinea,Cross-Cutting Indicators,Connectivity,,1,1.88,,,1.88,,,,
 Guinea-Bissau,Cross-Cutting Indicators,Connectivity,,1,1.94,,,1.94,,,,
@@ -669,54 +669,54 @@ Iceland,Cross-Cutting Indicators,Connectivity,,1,4.28,,,4.28,,,,
 India,Cross-Cutting Indicators,Connectivity,,1,3.17,,,3.17,,,,
 Indonesia,Cross-Cutting Indicators,Connectivity,,1,3.04,,,3.04,,,,
 Iran (Islamic Republic of),Cross-Cutting Indicators,Connectivity,,1,2.93,,,2.93,,,,
-Iraq,Cross-Cutting Indicators,Connectivity,,1,2.38,,,2.38,,,,
-Ireland,Cross-Cutting Indicators,Connectivity,,1,3.89,,,3.89,,,,
+Iraq,Cross-Cutting Indicators,Connectivity,,1,2.37,,,2.37,,,,
+Ireland,Cross-Cutting Indicators,Connectivity,,1,3.88,,,3.88,,,,
 Israel,Cross-Cutting Indicators,Connectivity,,1,4.02,,,4.02,,,,
 Italy,Cross-Cutting Indicators,Connectivity,,1,3.73,,,3.73,,,,
 Jamaica,Cross-Cutting Indicators,Connectivity,,1,2.73,,,2.73,,,,
-Japan,Cross-Cutting Indicators,Connectivity,,1,3.87,,,3.87,,,,
+Japan,Cross-Cutting Indicators,Connectivity,,1,3.86,,,3.86,,,,
 Jordan,Cross-Cutting Indicators,Connectivity,,1,2.61,,,2.61,,,,
 Kazakhstan,Cross-Cutting Indicators,Connectivity,,1,3.69,,,3.69,,,,
 Kenya,Cross-Cutting Indicators,Connectivity,,1,2.86,,,2.86,,,,
 Kiribati,Cross-Cutting Indicators,Connectivity,,1,1.89,,,1.89,,,,
-Kosovo (UNSCR 1244),Cross-Cutting Indicators,Connectivity,,1,3.86,,,3.86,,,,
-Kuwait,Cross-Cutting Indicators,Connectivity,,1,4.13,,,4.13,,,,
+Kosovo (UNSCR 1244),Cross-Cutting Indicators,Connectivity,,1,3.81,,,3.81,,,,
+Kuwait,Cross-Cutting Indicators,Connectivity,,1,4.12,,,4.12,,,,
 Kyrgyzstan,Cross-Cutting Indicators,Connectivity,,1,2.79,,,2.79,,,,
 Lao People's Democratic Republic (the),Cross-Cutting Indicators,Connectivity,,1,2.42,,,2.42,,,,
 Latvia,Cross-Cutting Indicators,Connectivity,,1,3.97,,,3.97,,,,
 Lebanon,Cross-Cutting Indicators,Connectivity,,1,2.65,,,2.65,,,,
 Lesotho,Cross-Cutting Indicators,Connectivity,,1,2.72,,,2.72,,,,
 Liberia,Cross-Cutting Indicators,Connectivity,,1,1.46,,,1.46,,,,
-Libya,Cross-Cutting Indicators,Connectivity,,1,2.02,,,2.02,,,,
-Liechtenstein,Cross-Cutting Indicators,Connectivity,,1,3.56,,,3.56,,,,
-Lithuania,Cross-Cutting Indicators,Connectivity,,1,4.01,,,4.01,,,,
-Luxembourg,Cross-Cutting Indicators,Connectivity,,1,3.91,,,3.91,,,,
+Libya,Cross-Cutting Indicators,Connectivity,,1,2.01,,,2.01,,,,
+Liechtenstein,Cross-Cutting Indicators,Connectivity,,1,3.54,,,3.54,,,,
+Lithuania,Cross-Cutting Indicators,Connectivity,,1,4.0,,,4.0,,,,
+Luxembourg,Cross-Cutting Indicators,Connectivity,,1,3.9,,,3.9,,,,
 Madagascar,Cross-Cutting Indicators,Connectivity,,1,1.6,,,1.6,,,,
 Malawi,Cross-Cutting Indicators,Connectivity,,1,1.63,,,1.63,,,,
-Malaysia,Cross-Cutting Indicators,Connectivity,,1,3.15,,,3.15,,,,
+Malaysia,Cross-Cutting Indicators,Connectivity,,1,3.14,,,3.14,,,,
 Maldives,Cross-Cutting Indicators,Connectivity,,1,2.84,,,2.84,,,,
 Mali,Cross-Cutting Indicators,Connectivity,,1,2.44,,,2.44,,,,
 Malta,Cross-Cutting Indicators,Connectivity,,1,4.25,,,4.25,,,,
 Marshall Islands (the),Cross-Cutting Indicators,Connectivity,,1,2.98,,,2.98,,,,
 Mauritania,Cross-Cutting Indicators,Connectivity,,1,2.11,,,2.11,,,,
-Mauritius,Cross-Cutting Indicators,Connectivity,,1,3.45,,,3.45,,,,
+Mauritius,Cross-Cutting Indicators,Connectivity,,1,3.44,,,3.44,,,,
 Mexico,Cross-Cutting Indicators,Connectivity,,1,3.35,,,3.35,,,,
-Micronesia (Federated States of),Cross-Cutting Indicators,Connectivity,,1,1.24,,,1.24,,,,
-Monaco,Cross-Cutting Indicators,Connectivity,,1,2.9,,,2.9,,,,
+Micronesia (Federated States of),Cross-Cutting Indicators,Connectivity,,1,1.23,,,1.23,,,,
+Monaco,Cross-Cutting Indicators,Connectivity,,1,2.89,,,2.89,,,,
 Mongolia,Cross-Cutting Indicators,Connectivity,,1,3.36,,,3.36,,,,
 Montenegro,Cross-Cutting Indicators,Connectivity,,1,3.32,,,3.32,,,,
-Morocco,Cross-Cutting Indicators,Connectivity,,1,2.91,,,2.91,,,,
-Mozambique,Cross-Cutting Indicators,Connectivity,,1,1.38,,,1.38,,,,
+Morocco,Cross-Cutting Indicators,Connectivity,,1,2.9,,,2.9,,,,
+Mozambique,Cross-Cutting Indicators,Connectivity,,1,1.37,,,1.37,,,,
 Myanmar,Cross-Cutting Indicators,Connectivity,,1,2.43,,,2.44,,,,
-Namibia,Cross-Cutting Indicators,Connectivity,,1,2.33,,,2.33,,,,
+Namibia,Cross-Cutting Indicators,Connectivity,,1,2.32,,,2.32,,,,
 Nauru,Cross-Cutting Indicators,Connectivity,,1,2.86,,,2.86,,,,
-Nepal,Cross-Cutting Indicators,Connectivity,,1,2.71,,,2.71,,,,
+Nepal,Cross-Cutting Indicators,Connectivity,,1,2.7,,,2.7,,,,
 Netherlands (the),Cross-Cutting Indicators,Connectivity,,1,4.13,,,4.13,,,,
-New Zealand,Cross-Cutting Indicators,Connectivity,,1,4.08,,,4.08,,,,
+New Zealand,Cross-Cutting Indicators,Connectivity,,1,4.07,,,4.07,,,,
 Nicaragua,Cross-Cutting Indicators,Connectivity,,1,2.53,,,2.53,,,,
 Niger (the),Cross-Cutting Indicators,Connectivity,,1,1.62,,,1.62,,,,
-Nigeria,Cross-Cutting Indicators,Connectivity,,1,2.3,,,2.3,,,,
-North Macedonia,Cross-Cutting Indicators,Connectivity,,1,3.21,,,3.21,,,,
+Nigeria,Cross-Cutting Indicators,Connectivity,,1,2.29,,,2.29,,,,
+North Macedonia,Cross-Cutting Indicators,Connectivity,,1,3.2,,,3.2,,,,
 Norway,Cross-Cutting Indicators,Connectivity,,1,4.49,,,4.49,,,,
 Oman,Cross-Cutting Indicators,Connectivity,,1,3.4,,,3.4,,,,
 Pakistan,Cross-Cutting Indicators,Connectivity,,1,2.51,,,2.51,,,,
@@ -724,41 +724,41 @@ Palau,Cross-Cutting Indicators,Connectivity,,1,3.44,,,3.44,,,,
 Panama,Cross-Cutting Indicators,Connectivity,,1,3.53,,,3.53,,,,
 Papua New Guinea,Cross-Cutting Indicators,Connectivity,,1,1.64,,,1.64,,,,
 Paraguay,Cross-Cutting Indicators,Connectivity,,1,3.04,,,3.04,,,,
-Peru,Cross-Cutting Indicators,Connectivity,,1,3.06,,,3.06,,,,
-Philippines (the),Cross-Cutting Indicators,Connectivity,,1,3.27,,,3.27,,,,
-Poland,Cross-Cutting Indicators,Connectivity,,1,4.0,,,4.0,,,,
+Peru,Cross-Cutting Indicators,Connectivity,,1,3.05,,,3.05,,,,
+Philippines (the),Cross-Cutting Indicators,Connectivity,,1,3.26,,,3.26,,,,
+Poland,Cross-Cutting Indicators,Connectivity,,1,3.99,,,3.99,,,,
 Portugal,Cross-Cutting Indicators,Connectivity,,1,3.68,,,3.68,,,,
 Qatar,Cross-Cutting Indicators,Connectivity,,1,4.44,,,4.45,,,,
-Republic of Korea (the),Cross-Cutting Indicators,Connectivity,,1,4.35,,,4.35,,,,
-Republic of Moldova (the),Cross-Cutting Indicators,Connectivity,,1,3.67,,,3.67,,,,
-Romania,Cross-Cutting Indicators,Connectivity,,1,3.7,,,3.7,,,,
+Republic of Korea (the),Cross-Cutting Indicators,Connectivity,,1,4.36,,,4.37,,,,
+Republic of Moldova (the),Cross-Cutting Indicators,Connectivity,,1,3.66,,,3.66,,,,
+Romania,Cross-Cutting Indicators,Connectivity,,1,3.69,,,3.69,,,,
 Russian Federation (the),Cross-Cutting Indicators,Connectivity,,1,3.44,,,3.44,,,,
 Rwanda,Cross-Cutting Indicators,Connectivity,,1,2.32,,,2.32,,,,
 Saint Kitts and Nevis,Cross-Cutting Indicators,Connectivity,,1,4.25,,,4.25,,,,
 Saint Lucia,Cross-Cutting Indicators,Connectivity,,1,3.16,,,3.16,,,,
-Saint Vincent and the Grenadines,Cross-Cutting Indicators,Connectivity,,1,2.66,,,2.66,,,,
+Saint Vincent and the Grenadines,Cross-Cutting Indicators,Connectivity,,1,2.65,,,2.65,,,,
 Samoa,Cross-Cutting Indicators,Connectivity,,1,2.76,,,2.76,,,,
 San Marino,Cross-Cutting Indicators,Connectivity,,1,3.47,,,3.47,,,,
 Sao Tome and Principe,Cross-Cutting Indicators,Connectivity,,1,1.43,,,1.43,,,,
-Saudi Arabia,Cross-Cutting Indicators,Connectivity,,1,3.77,,,3.77,,,,
+Saudi Arabia,Cross-Cutting Indicators,Connectivity,,1,3.76,,,3.76,,,,
 Senegal,Cross-Cutting Indicators,Connectivity,,1,2.49,,,2.5,,,,
 Serbia,Cross-Cutting Indicators,Connectivity,,1,3.73,,,3.73,,,,
 Seychelles,Cross-Cutting Indicators,Connectivity,,1,2.97,,,2.97,,,,
 Sierra Leone,Cross-Cutting Indicators,Connectivity,,1,1.72,,,1.72,,,,
 Singapore,Cross-Cutting Indicators,Connectivity,,1,4.41,,,4.41,,,,
-Slovakia,Cross-Cutting Indicators,Connectivity,,1,3.68,,,3.68,,,,
+Slovakia,Cross-Cutting Indicators,Connectivity,,1,3.67,,,3.67,,,,
 Slovenia,Cross-Cutting Indicators,Connectivity,,1,4.15,,,4.16,,,,
 Solomon Islands,Cross-Cutting Indicators,Connectivity,,1,1.6,,,1.6,,,,
-Somalia,Cross-Cutting Indicators,Connectivity,,1,1.87,,,1.87,,,,
-South Africa,Cross-Cutting Indicators,Connectivity,,1,3.11,,,3.11,,,,
+Somalia,Cross-Cutting Indicators,Connectivity,,1,1.86,,,1.86,,,,
+South Africa,Cross-Cutting Indicators,Connectivity,,1,3.1,,,3.1,,,,
 South Sudan,Cross-Cutting Indicators,Connectivity,,1,0.68,,,0.68,,,,
-Spain,Cross-Cutting Indicators,Connectivity,,1,4.16,,,4.16,,,,
-Sri Lanka,Cross-Cutting Indicators,Connectivity,,1,3.29,,,3.29,,,,
-Sudan (the),Cross-Cutting Indicators,Connectivity,,1,1.81,,,1.81,,,,
+Spain,Cross-Cutting Indicators,Connectivity,,1,4.15,,,4.16,,,,
+Sri Lanka,Cross-Cutting Indicators,Connectivity,,1,3.3,,,3.3,,,,
+Sudan (the),Cross-Cutting Indicators,Connectivity,,1,1.8,,,1.8,,,,
 Suriname,Cross-Cutting Indicators,Connectivity,,1,2.77,,,2.77,,,,
 Sweden,Cross-Cutting Indicators,Connectivity,,1,4.18,,,4.18,,,,
-Switzerland,Cross-Cutting Indicators,Connectivity,,1,4.56,,,4.56,,,,
-Syrian Arab Republic (the),Cross-Cutting Indicators,Connectivity,,1,1.37,,,1.37,,,,
+Switzerland,Cross-Cutting Indicators,Connectivity,,1,4.55,,,4.55,,,,
+Syrian Arab Republic (the),Cross-Cutting Indicators,Connectivity,,1,1.41,,,1.41,,,,
 Tajikistan,Cross-Cutting Indicators,Connectivity,,1,1.8,,,1.8,,,,
 Thailand,Cross-Cutting Indicators,Connectivity,,1,3.49,,,3.49,,,,
 Timor-Leste,Cross-Cutting Indicators,Connectivity,,1,2.53,,,2.53,,,,
@@ -766,23 +766,23 @@ Togo,Cross-Cutting Indicators,Connectivity,,1,1.98,,,1.98,,,,
 Tonga,Cross-Cutting Indicators,Connectivity,,1,2.58,,,2.58,,,,
 Trinidad and Tobago,Cross-Cutting Indicators,Connectivity,,1,3.63,,,3.63,,,,
 Tunisia,Cross-Cutting Indicators,Connectivity,,1,2.9,,,2.9,,,,
-Turkey,Cross-Cutting Indicators,Connectivity,,1,3.87,,,3.87,,,,
-Turkmenistan,Cross-Cutting Indicators,Connectivity,,1,1.68,,,1.68,,,,
+Turkey,Cross-Cutting Indicators,Connectivity,,1,3.86,,,3.86,,,,
+Turkmenistan,Cross-Cutting Indicators,Connectivity,,1,1.67,,,1.67,,,,
 Tuvalu,Cross-Cutting Indicators,Connectivity,,1,3.16,,,3.16,,,,
 Uganda,Cross-Cutting Indicators,Connectivity,,1,2.39,,,2.39,,,,
 Ukraine,Cross-Cutting Indicators,Connectivity,,1,3.19,,,3.19,,,,
-United Arab Emirates (the),Cross-Cutting Indicators,Connectivity,,1,4.63,,,4.63,,,,
+United Arab Emirates (the),Cross-Cutting Indicators,Connectivity,,1,4.62,,,4.62,,,,
 United Kingdom of Great Britain and Northern Ireland (the),Cross-Cutting Indicators,Connectivity,,1,3.85,,,3.85,,,,
 United Republic of Tanzania (the),Cross-Cutting Indicators,Connectivity,,1,2.27,,,2.27,,,,
 United States of America (the),Cross-Cutting Indicators,Connectivity,,1,4.18,,,4.18,,,,
-Uruguay,Cross-Cutting Indicators,Connectivity,,1,4.07,,,4.07,,,,
+Uruguay,Cross-Cutting Indicators,Connectivity,,1,4.06,,,4.06,,,,
 Uzbekistan,Cross-Cutting Indicators,Connectivity,,1,2.83,,,2.83,,,,
 Vanuatu,Cross-Cutting Indicators,Connectivity,,1,2.88,,,2.88,,,,
-Venezuela (Bolivarian Republic of),Cross-Cutting Indicators,Connectivity,,1,3.18,,,3.18,,,,
-Viet Nam,Cross-Cutting Indicators,Connectivity,,1,3.36,,,3.36,,,,
-Yemen,Cross-Cutting Indicators,Connectivity,,1,1.33,,,1.33,,,,
+Venezuela (Bolivarian Republic of),Cross-Cutting Indicators,Connectivity,,1,3.19,,,3.19,,,,
+Viet Nam,Cross-Cutting Indicators,Connectivity,,1,3.39,,,3.39,,,,
+Yemen,Cross-Cutting Indicators,Connectivity,,1,1.32,,,1.32,,,,
 Zambia,Cross-Cutting Indicators,Connectivity,,1,2.53,,,2.53,,,,
-Zimbabwe,Cross-Cutting Indicators,Connectivity,,1,2.57,,,2.57,,,,
+Zimbabwe,Cross-Cutting Indicators,Connectivity,,1,2.56,,,2.56,,,,
 Afghanistan,Cross-Cutting Indicators,Digital literacy and skills ,,1,1.57,,83.33333333333334,1.57,,,,
 Albania,Cross-Cutting Indicators,Digital literacy and skills ,,1,3.68,,100.0,3.68,,,,
 Algeria,Cross-Cutting Indicators,Digital literacy and skills ,,1,3.08,,100.0,3.08,,,,
