@@ -24,7 +24,7 @@ function Hero() {
         Is your nation ready to navigate digital transformation?
       </h1>
       <p className="text-[16px] sm:text-[16px]  md:text-[20px] lg:text-[20px] leading-7 mt-4 text-left" style={{color: '#333333'}}>
-      Explore your nation's digital progress using the world's largest database of digital development data. Leveraging the pillars of UNDP’s Digital Transformation Framework, the Digital Development Compass lets you discover and compare progress across a range of key issues.
+      Explore your nation's digital progress using the world's largest database of digital development data. Leveraging the pillars of UNDP's Digital Transformation Framework, the Digital Development Compass lets you discover and compare progress across a range of key issues.
       </p>
     </div>
   );
@@ -67,7 +67,7 @@ const IndexPage = ({
               </div>
             </div>
           </div>
-          <div className="col-span-full lg:col-span-7 pb-20 lg:pb-0 overflow-hidden relative bg-gradient-to-r from-blue-50 ">
+          <div className="col-span-full lg:col-span-7 pb-20 lg:pb-0 overflow-hidden relative bg-gradient-to-r from-blue-50 flex flex-col">
             <AnimatePresence>
               {activeCountry && (
                 <motion.div
@@ -79,7 +79,7 @@ const IndexPage = ({
               )}
             </AnimatePresence>
             <motion.div
-              className="h-full"
+              className="flex-1"
               variants={globeVariants}
               initial={false}
               animate={Boolean(activeCountryId) ? "shifted" : "normal"}
@@ -96,6 +96,16 @@ const IndexPage = ({
                 data={globeData}
               />
             </motion.div>
+            
+            {/* Disclaimer */}
+            <div className="px-4 py-3 text-xs text-gray-600 leading-relaxed">
+              The designations employed and the presentation of material on this map do not 
+              imply the expression of any opinion whatsoever on the part of the Secretariat of 
+              the United Nations or UNDP concerning the legal status of any country, 
+              territory, city or area or its authorities, or concerning the delimitation of its 
+              frontiers or boundaries.
+            </div>
+            
             <AnimatePresence>
               {activeCountry && (
                 <motion.div
