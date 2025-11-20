@@ -614,9 +614,9 @@ const Info = ({ pillar, country }: { pillar: string; country: Country }) => {
         </h3> */}
         {Boolean(stageInfo) ? (
           <>
-            {/* <p className="mt-4 font-semibold text-xl pointer-events-none">
+            <p className="mt-2 font-semibold text-xl pointer-events-none">
               Stage {stageInfo.number}: {stageInfo.name}
-            </p> */}
+            </p>
             {/* <p className="leading-5 mt-1 font-light tracking-[0.01em]">
               {stageInfo.description}
             </p> */}
