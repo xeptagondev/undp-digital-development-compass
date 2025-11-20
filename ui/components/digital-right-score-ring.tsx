@@ -316,7 +316,7 @@ export const DigitalRightScoreRing = ({
                     className="hidden md:block lg:text-2xl transition-all"
                     style={{
                       color,
-                      transform: `translate(${iconPosition[0]}px, ${iconPosition[1]}px) translate(-0.5em, 0)`,
+                      transform: `translate(${iconPosition[0]}px, ${iconPosition[1]}px) translate(-0.5em, 0.3em)`,
                     }}
                   >
                     {/* @ts-ignore */}
@@ -327,7 +327,7 @@ export const DigitalRightScoreRing = ({
                     className="md:hidden lg:text-2xl transition-all"
                     style={{
                       color,
-                      transform: `translate(${iconPosition[0]}px, ${iconPosition[1]}px) translate(-1em, 0)`,
+                      transform: `translate(${iconPosition[0]}px, ${iconPosition[1]}px) translate(-1em, 0.3em)`,
                     }}
                   >
                     {/* @ts-ignore */}
