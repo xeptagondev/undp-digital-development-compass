@@ -14,7 +14,7 @@ const slides: Slide[] = [
   {
     title: "Detailed Digital Rights data is now available!",
     content:
-      `Explore the data on the Country page. You can quickly access it by clicking the “Jump to Digital Rights Dashboard” button, or deep dive in our approach on the <strong><a target='_blank' class='inline-link' href='/methodology/digital-rights-dashboard'> methodology page.</a> </strong><img style='margin-top:10px' src='${prefix}/drd_section.png' alt='DRD Dashboard'/>`,
+      `Explore the data on the Country page. You can quickly access it by clicking the “Jump to Digital Rights Dashboard” button, or deep dive in our approach on the <strong><a target='_blank' class='inline-link' href='${prefix}/methodology/digital-rights-dashboard'> methodology page.</a> </strong><img style='margin-top:10px' src='${prefix}/drd_section.png' alt='DRD Dashboard'/>`,
   },
   // {
   //   title1: "Here's a glimpse of what's new:",
