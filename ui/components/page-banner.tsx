@@ -34,7 +34,7 @@ export const PageBanner = (props: {
   };
 
   return (
-    isVisible && isPathMatch ? <div className="w-full bg-brand-blue-dark text-white px-6 py-2 flex justify-between items-center h-10">
+    isVisible && isPathMatch ? <div className="w-full bg-brand-blue-dark text-white px-6 mt-[2px] py-2 flex justify-between items-center ">
       
       {props.children}
       <img
