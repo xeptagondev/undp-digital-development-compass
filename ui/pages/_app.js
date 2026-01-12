@@ -11,10 +11,24 @@ export default function MyApp({ Component, pageProps }) {
     <>
       <DefaultSeo
         title="Home"
-        titleTemplate="UNDP Digital Development Compass | %s"
+        titleTemplate="%s"
         twitter={{
           handle: "@UNDPdigital",
           cardType: "summary_large_image",
+        }}
+        openGraph={{
+          type: "website",
+          locale: "en_IE",
+          url: `https://digitaldevelopmentcompass.undp.org`,
+          site_name: "UNDP Digital Development Compass",
+          images: [
+            {
+              url: `${prefix}/undp_banner.png`,
+              width: 1200,
+              height: 630,
+              alt: "UNDP Digital Development Compass",
+            },
+          ],
         }}
       />
       <Head>
