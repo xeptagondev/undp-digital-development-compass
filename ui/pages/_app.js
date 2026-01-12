@@ -6,12 +6,16 @@ import Head from "next/head";
 
 import "../styles/global.css";
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+const isProduction = process.env.SITE_CONFIG === 'staging';
+
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <DefaultSeo
         title="Home"
         titleTemplate="%s"
+        dangerouslySetAllPagesToNoIndex={!isProduction}
+        dangerouslySetAllPagesToNoFollow={!isProduction}
         twitter={{
           handle: "@UNDPdigital",
           cardType: "summary_large_image",
