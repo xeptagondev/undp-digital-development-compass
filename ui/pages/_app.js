@@ -45,6 +45,7 @@ export default function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
         />
+        <meta name="google-site-verification" content="f0r7DLoVqEmnuJrWeQAI7GKAqS6vSMz-ApTvni3DIKs" />
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
