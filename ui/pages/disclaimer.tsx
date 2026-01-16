@@ -5,6 +5,7 @@ import Script from "next/script";
 import { isMemberState } from "lib";
 
 import Layout from "components/Layout";
+import FloatingQuestionnaire from "components/floating-questionnaire";
 export default function disclaimer(
   props: InferGetStaticPropsType<typeof getStaticProps>
 ) {
@@ -62,6 +63,12 @@ export default function disclaimer(
           </div>
         </div>
       </div>
+
+      <FloatingQuestionnaire
+        endpoint="/api/questionnaire"
+        title="Share your feedback"
+        buttonLabel="Feedback"
+      />
 
       {/* typeform chat overlay */}
       <div
