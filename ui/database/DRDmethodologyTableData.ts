@@ -125,7 +125,7 @@ export const overallStagesTableData = [
   {
     number: "1-2",
     stage: "Opportunistic",
-    definition: `The country is a State Party to a **limited number** of relevant international conventions. A few domestic policy instruments and institutional frameworks are in place. **Growing attempts are in place** to support their implementation.\n\n${OVERALL_DISCLAIMER}`,
+    definition: `The country is a State Party to a **limited number** of relevant international conventions. A few domestic policy instruments and institutional frameworks are in place. **Growing attempts are in place to support**  their implementation.\n\n${OVERALL_DISCLAIMER}`,
   },
   {
     number: "2-3",
@@ -140,7 +140,7 @@ export const overallStagesTableData = [
   {
     number: "4-5",
     stage: "Transformational",
-    definition: `The country is a State Party to **most, if not all** international conventions. **Most, if not all** domestic policy instruments and institutional frameworks are established. **Strong processes** are likely in place to implement these structures.\n\n${OVERALL_DISCLAIMER}`,
+    definition: `The country is a State Party to **most, if not all** international conventions. **Most, if not all** domestic policy instruments and institutional frameworks are established. **Strong processes are likely** in place to implement these structures.\n\n${OVERALL_DISCLAIMER}`,
   },
 ];
       
