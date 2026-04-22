@@ -58,7 +58,7 @@ export default function disclaimer(
                 acknowledge and agree to the terms of this disclaimer.
               </p>
               <p className="pb-[12px] sm:pb-[12px] md:pb-[35px] lg:pb-[35px]">
-                The <b>Digital Rights Dashboard</b> is not a scoring or evaluative tool, but an
+                The <b>Digital Rights Dashboard (DRD)</b> is not a scoring or evaluative tool, but an
                 overview intended as a starting point for examining how national
                 contexts support or challenge human rights online. It is
                 designed to foster informed dialogue on rights-based digital
