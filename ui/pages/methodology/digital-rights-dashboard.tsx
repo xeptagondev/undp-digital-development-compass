@@ -435,30 +435,14 @@ export default function DIGITAL_RIGHTS_DASHBOARD(
 
               <OverallStageTable/>
               
-
               <p className="pt-[12px] sm:pt-[12px] md:pt-[35px] lg:pt-[35px]">
-                <strong>Disclaimer:</strong> The DRD is not a scoring or evaluative tool, but an overview intended as a starting point for
-                examining how national contexts support or challenge human rights online. It is designed to foster informed dialogue on
-                rights-based digital transformation. Numerical scores cannot fully reflect the complexities within a given jurisdiction,
-                particularly as the DRD focuses primarily on structural indicators. Data may also be subject to limitations or bias in its
-                compilation and aggregation. Scores should therefore not be used as the sole basis for decisions and judgments.{" "}
-                (For further information, please refer to the{" "}
-                <a
-                  href="https://digitaldevelopmentcompass.undp.org/methodology/digital-rights-dashboard"
-                  className="url-styling"
-                  target="_blank"
-                >
-                  DRD Methodology
-                </a>
-                {" "}and the{" "}
-                <a
+                For further references and information on the piloting please see the 
+                {" "}<a
                   href="https://www.undp.org/publications/undp-digital-rights-dashboard-pilot-country-insights"
                   className="url-styling"
                   target="_blank"
                 >
-                  Pilot Country Insights
-                </a>
-                )
+                 DRD Pilot Country Insights.</a>
               </p> 
               
               <h2 className="sm:pt-[100px] md:pt-[61.12px] lg:pt-[61.12px] text-[40px] sm:text-[40px] md:text-[55px] lg:text-[55px] leading-[1.4] sm:leading-[48px] md:leading-[1.4] lg:leading-[1.4] font-bold text-left pb-[70px] sm:pb-[70px] md:pb-[50px] lg:pb-[50px] sm:text-left md:text-left">
