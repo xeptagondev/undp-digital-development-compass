@@ -205,7 +205,11 @@ const Indicator = ({
   showSources: boolean;
   isShowingRawScores: boolean;
 }) => {
-  const hasNoData = indicator.data_col === null;
+  // Binary indicators (raw_data_col populated, e.g. "Yes"/"No") have their
+  // new_rank_score/data_col redacted at build time (see prepare-data.js,
+  // UNDP-278) even when data is genuinely available, so hasNoData must fall
+  // back to raw_data_col for that case rather than reading data_col alone.
+  const hasNoData = indicator.data_col === null && !indicator.raw_data_col;
   const [isIconHovered, setIconIsHovered] = useState(false);
   // we want to get the source name from the list of sources,
   // but if empty, we need to fall back to the indicator's "Data Source"
@@ -216,34 +220,31 @@ const Indicator = ({
       year: indicator["Year"],
     }))
     .filter((indicator) => indicator.source && indicator.link);
+  // UNDP-278: data_col/new_rank_score are now typed nullable (redacted for
+  // binary indicators at build time); coalesce to 0 since binary indicators
+  // never reach this value via renderValue() below anyway.
   const value = +(isShowingRawScores
-    ? indicator.data_col
-    : indicator.new_rank_score);
+    ? indicator.data_col ?? 0
+    : indicator.new_rank_score ?? 0);
   const disp_val:any = value == 0 ? 0 : roundNumber(value, 2);
   const [isHovered, setIsHovered] = useState(false);
 
   const renderValue = () => {
     const commonClasses = 'font-mono text-xs';
     const numberClasses = 'text-base font-normal leading-[137.5%] tracking-normal font-sans';
-  
-    if (isShowingRawScores && indicator.raw_data_col) {
-      const number = parseFloat(indicator.raw_data_col);
-  
-      if (!isNaN(number)) {
-        return (
-          <span className={numberClasses}>
-            {number}
-          </span>
-        );
-      }
+
+    // Binary indicators (e.g. "Is the country a state party to the ICCPR")
+    // always show their Yes/No text, in both toggle states, and never a
+    // number — UNDP-278.
+    if (indicator.raw_data_col) {
       const cleanedData = indicator.raw_data_col
         .replace(/^["']+|["']+$/g, "")
         .trim();
-  
+
       if (cleanedData.length > 9) {
         // Find the first word
         const firstWord = cleanedData.split(" ")[0];
-  
+
         return (
           <span
             className={commonClasses}
@@ -268,9 +269,9 @@ const Indicator = ({
           </span>
         );
       }
-  
+
       const number = parseFloat(disp_val);
-  
+
       if (!isNaN(number)) {
         return (
           <span className={numberClasses}>

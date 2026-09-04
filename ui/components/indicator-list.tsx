@@ -232,9 +232,12 @@ const Indicator = ({
       year: indicator["Year"],
     }))
     .filter((indicator) => indicator.source && indicator.link);
+  // Types widened to nullable by the DRD score-hiding change (UNDP-278),
+  // which redacts these fields for binary DRD indicators only — this
+  // component's own data never actually carries a null here.
   const value = +(isShowingRawScores
-    ? indicator.data_col
-    : indicator.new_rank_score);
+    ? indicator.data_col ?? 0
+    : indicator.new_rank_score ?? 0);
   const disp_val:any = value == 0 ? 0 : roundNumber(value, 2);
   const [isHovered, setIsHovered] = useState(false);
 

@@ -95,7 +95,7 @@ export const DigitalRightScoreRing = ({
     : pillars.reduce((acc, pillar) => {
         const missingPillars =
           country.digitalRightScores &&
-          !country.digitalRightScores[pillar]?.score
+          !country.digitalRightScores[pillar]?.stage
             ? 0
             : 0;
         return acc + missingPillars;
@@ -113,7 +113,7 @@ export const DigitalRightScoreRing = ({
     let runningDegreesForPillar = 0;
     // subpillars.forEach((subpillar, j) => {
     const isEmpty =
-      !isPlaceholder && !country.digitalRightScores?.[name]?.score;
+      !isPlaceholder && !country.digitalRightScores?.[name]?.stage;
     const degreesForPillar = filledPillarDegrees;
     // subPillarAngles[subpillar] = [
     //   startAngleRunning + runningDegreesForPillar,
@@ -182,21 +182,8 @@ export const DigitalRightScoreRing = ({
               <feMergeNode in="SourceGraphic" />
             </feMerge>
           </filter>
-          <g id="star">
-            <polygon
-              id="star"
-              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-              className="text-[#F9A315] fill-current"
-            />
-            <polygon
-              transform="scale(1.4)"
-              style={{ transformOrigin: "12px 12px" }}
-              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-              className="text-[#FEC704] stroke-current opacity-50"
-              fill="none"
-              strokeWidth="0.6"
-            />
-          </g>
+          {/* UNDP-278 (decision 2, Option A): "top 10" star symbol removed —
+              no longer referenced anywhere in this ring. */}
           {pillars.map((pillar) => {
             return (
               <radialGradient
@@ -238,16 +225,19 @@ export const DigitalRightScoreRing = ({
               pillarAngles[pillar][0],
               pillarAngles[pillar][1]
             );
+            // UNDP-278 (decision 1, Option C): fill by stage instead of the
+            // raw continuous score, so two countries in the same stage show
+            // the same fill amount.
             // @ts-ignore
             const fillArc = getArc(
               outerRingR[0],
-              outerRingScale(country.digitalRightScores?.[pillar]?.score),
+              outerRingScale(country.digitalRightScores?.[pillar]?.stage?.number),
               pillarAngles[pillar][0],
               pillarAngles[pillar][1]
             );
             const isHovered = hoveredPillar === pillar;
             const hasData =
-              isPlaceholder || country.digitalRightScores?.[pillar]?.score;
+              isPlaceholder || country.digitalRightScores?.[pillar]?.stage;
             return (
               <g
                 key={`${pillar}-${index}-${pillar}`}
@@ -371,27 +361,20 @@ export const DigitalRightScoreRing = ({
                     midAngle - Math.PI * 0.5,
                     outerRingR[1] + r * 0.06
                   );
-                  let starPosition = getPointFromAngle(
-                    midAngle - Math.PI * 0.5,
-                    outerRingR[1] + r * 0.07
-                  );
                   const distanceOffset = getDistanceOffsetFromAngle(midAngle);
                   // @ts-ignore
                   endPoint[1] = endPoint[1] + distanceOffset * r;
                   // @ts-ignore
                   endPointLine[1] = endPointLine[1] + distanceOffset * r;
-                  // @ts-ignore
-                  starPosition[1] = starPosition[1] + (distanceOffset * r) / 2;
                   const endPointInner = getPointFromAngle(
                     midAngle - Math.PI * 0.5,
                     outerRingR[1] - r * 0.09
                   );
+                  // UNDP-278 (decision 1, Option C): value now reflects the
+                  // stage number, not the raw score.
                   // @ts-ignore
-                  const value = country.digitalRightScores?.[pillar]?.["score"] ?? 0;
+                  const value = country.digitalRightScores?.[pillar]?.["stage"]?.number ?? 0;
                   const hasData = isPlaceholder || !!value;
-                  // @ts-ignore
-                  const rank = country.digitalRightScores?.[pillar]?.["rank"];
-                  const isAStar = hasData && rank && rank <= 10;
                   return (
                     <g
                       key={`${pillar}`}
@@ -422,55 +405,9 @@ export const DigitalRightScoreRing = ({
                           } stroke-current transition-all`}
                         />
                       )}
-                      {isAStar && (
-                        <>
-                          {/* mobile */}
-                          <g
-                            className="transition-all md:hidden"
-                            transform={`translate(${starPosition[0] - 20} ${
-                              starPosition[1] - 30
-                            })`}
-                          >
-                            <use
-                              href="#star"
-                              style={{
-                                transformOrigin: `12px 12px`,
-                                transform: `rotate(${
-                                  midAngle - Math.PI * 0.6
-                                }rad)`,
-                              }}
-                            />
-                          </g>
-                          {/* web */}
-                          <g
-                            className="hidden md:block transition-all"
-                            transform={`translate(${starPosition[0] - 12} ${
-                              starPosition[1] - 12
-                            })`}
-                          >
-                            <use
-                              href="#star"
-                              style={{
-                                transformOrigin: `12px 12px`,
-                                transform: `rotate(${
-                                  midAngle - Math.PI * 0.6
-                                }rad)`,
-                              }}
-                            />
-                          </g>
-                          {/* <CircleText
-                            id={`star--top`}
-                            r={
-                              outerRingR[1] +
-                              r * 0.03 -
-                              (distanceOffset * r) / 2
-                            }
-                            rotate={midAngle / (Math.PI / 180)}
-                            text="top 10"
-                            className="hidden md:block uppercase tracking-widest font-bold text-xs text-yellow-700 fill-current"
-                          /> */}
-                        </>
-                      )}
+                      {/* UNDP-278 (decision 2, Option A): the "top 10" star icon
+                          has been removed entirely — DRD no longer signals
+                          relative country ranking in any form. */}
 
                       {(hasData || value >= 0) && (
                         <g
@@ -493,9 +430,8 @@ export const DigitalRightScoreRing = ({
                           >
                             {pillar}
                           </text>
-                          <text y="15" className="font-light">
-                            {value}
-                          </text>
+                          {/* UNDP-278: pillar score no longer printed here — Option B keeps
+                              the arc fill and star icon as-is, only the printed number is removed. */}
                           {/* {!!rank && (
                             <text
                               y="-18"

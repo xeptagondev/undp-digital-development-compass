@@ -167,16 +167,9 @@ async function main() {
     return match && match["rank"] ? match["rank"] : null;
   }
 
-  function getDigitalRightPillarRank(name, pillar) {
-    let match = digital_right_scores.find((score) => {
-      return (
-        score["Country Name"] === name &&
-        score["Pillar"] === pillar
-      );
-    });
-
-    return match && match["rank"] ? match["rank"] : null;
-  }
+  // getDigitalRightPillarRank removed (UNDP-278) — pillar rank is no longer
+  // shipped to the client now that decision 2 (Option A) drops any
+  // rank/"top 10" indicator from the DRD entirely.
 
   function getSubpillarRank(name, pillar, subpillar) {
     let match = scores.find((score) => {
@@ -353,19 +346,20 @@ async function main() {
     let latlonMatch = latlon.find((datum) => {
       return datum.alpha2 === country["ISO-alpha2 Code"];
     });
+    // UNDP-278: with decision 1 = Option C (ring fills by stage, not raw
+    // score) and decision 2 = Option A (no star/rank indicator at all), the
+    // client no longer needs the raw pillar score or rank for anything —
+    // only stage + confidence are shipped. `score` is still computed locally
+    // to derive the stage below, it just isn't included in the output object.
     let digitalRightsBaseScores = digitalRightPillarNames
     .reduce((acc, next) => {
       let score = getDigitalRightPillarScore(countryName, next);
-      let sscore = (score==0 ? 0 :roundNumber(parseFloat(score), 2));
       let confidence = getDigitalRightPillarConfidence(countryName, next);
-      let rank = getDigitalRightPillarRank(countryName, next);
-      //let multivariable = getUniqueSubpillarCount(countryName, next); 
+      //let multivariable = getUniqueSubpillarCount(countryName, next);
       //let divisionVariable = countUniqueSubpillars(next);
-      //let dividedRank = score * multivariable;        
+      //let dividedRank = score * multivariable;
       //let final_score = dividedRank / divisionVariable ;
       acc[next] = {
-        rank,
-        score: sscore,
         confidence: roundNumber(parseFloat(confidence), 2),
         stage: digital_right_getStageInfo(score, next) || null,
         // ...digital_right_pillarMap[next].reduce((subAcc, sp) => {
@@ -405,6 +399,20 @@ async function main() {
     };
   });
 
+  // DRD score-hiding change (UNDP-278): binary indicators (e.g. "Is the country
+  // a state party to the ICCPR") must only ever show their Yes/No text on the
+  // client, never a numeric score. Redact the score-carrying fields for those
+  // rows only — pillar-level rows (empty Indicator) and numeric-source indicator
+  // rows (empty raw_data_col) are left untouched, since the former still drives
+  // the DRD ring's fill and the latter is explicitly allowed to keep its
+  // weighted score.
+  const digital_right_scores_public = digital_right_scores.map((row) => {
+    const isIndicatorRow = Boolean(row["Indicator"]);
+    const isBinaryIndicator = isIndicatorRow && Boolean(row["raw_data_col"]);
+    if (!isBinaryIndicator) return row;
+    return { ...row, new_rank_score: null, data_col: null };
+  });
+
   const db = {
     definitions,
     boundingBoxes,
@@ -413,10 +421,10 @@ async function main() {
     scores,
     pillar_definitions,
     pillarNames,
-    digital_right_scores,
+    digital_right_scores: digital_right_scores_public,
     digital_right_pillar_definitions,
     digital_right_definitions
-  }; 
+  };
   // Used to more easily access the pillar data in the frontend.
   const ancillary = `export default {
     pillars: ${JSON.stringify(pillarMap)},

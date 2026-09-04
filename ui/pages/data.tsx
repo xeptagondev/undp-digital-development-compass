@@ -286,8 +286,12 @@ export default function Data(
           cellClass: `p-0`,
           headerCellClass: "text-right",
           formatter(props: FormatterProps<(typeof data)[0]>) {
+            // UNDP-278: the raw score is no longer shipped to the client at
+            // all (decisions 1 & 2 both removed the last need for it), so
+            // both the heatmap shading and the printed value are now driven
+            // by the discrete stage number/name instead.
             // @ts-ignore
-            let score = props.row.digitalRightScores[pillar].score;
+            let stage = props.row.digitalRightScores[pillar].stage;
             let confidence;
             confidence =
               // @ts-ignore
@@ -302,7 +306,7 @@ export default function Data(
                   className="absolute inset-0 w-full h-full pointer-events-none z-[-1] opacity-80"
                   style={{
                     backgroundColor: displaySettings.showHeatmap
-                      ? bgScale(score || 0)
+                      ? bgScale(stage?.number || 0)
                       : "transparent",
                   }}
                 ></div>
@@ -316,7 +320,7 @@ export default function Data(
                       label={`${Math.ceil(confidence)}%`}
                     />
                   )}
-                  <p className="text-right flex-1 text-[16px] leading-[137.5%] tracking-0">{score}</p>
+                  <p className="text-right flex-1 text-[16px] leading-[137.5%] tracking-0">{stage?.name ?? ""}</p>
                 </div>
               </div>
             );
